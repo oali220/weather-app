@@ -1,0 +1,81 @@
+body{
+    background-color: lightblue;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card1{
+    margin: 32px;
+}
+
+.card2 {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 320px;
+    padding: 100px;
+    background-color: white;
+    margin-bottom: 84px;
+    margin-top: 32px;
+    border-radius: 18px;
+}
+
+.card3 {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+    padding: 100px;
+    background-color: white;
+    margin-bottom: 144px;
+    border-radius: 18px;
+}
+
+input{
+    padding: 4px 12px;
+    border-radius: 6px;
+}
+
+button{
+    border-radius: 6px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.label{
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.temp-location {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.current-weather{
+    font-size: 64px;
+    font-weight: bold;
+}
+
+.cityname {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.weather-image {
+    font-size: 144px;
+}

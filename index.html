@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card1">
+            <input type="text" placeholder="Location..">
+            <button type="submit"><i class="fa fa-search"></i></button>
+        </div>
+        <div class="card2">
+            <div class="temp-location">
+                <div class="current-weather"><span weather-current>32</span>&deg;</div>
+                <div class="cityname">Barcelona, Spain</div>
+            </div>
+            <div class="weather-image">☀️</div>
+        </div>
+        <div class="card3">
+            <div class="info">
+                <div class="label">High</div>
+                <div><span weather-high>32</span>&deg;</div>
+            </div>
+            <div class="info">
+                <div class="label">Low</div>
+                <div><span weather-high>12</span>&deg;</div>
+            </div>
+            <div class="info">
+                <div class="label">Low</div>
+                <div><span weather-precipitation>0.5</span>in</div>
+            </div>
+            <div class="info">
+                <div class="label">Low</div>
+                <div><span weather-wind>12</span>mph</div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
