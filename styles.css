@@ -79,3 +79,9 @@ button{
 .weather-image {
     font-size: 144px;
 }
+
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
