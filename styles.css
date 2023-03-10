@@ -85,3 +85,6 @@ button{
     flex-direction: column;
     gap: 8px;
 }
+.weather-icon {
+    width: 175px;
+}
