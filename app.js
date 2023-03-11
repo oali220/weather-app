@@ -23,8 +23,16 @@ let weather = {
     document.querySelector(".humidity").innerText = humidity;
     document.querySelector(".wind").innerText = speed;
     document.querySelector(".current-weather").innerText = temp;
-  }
+  },
 
-}
+  searchBar: function() {
+    this.fetchWeather(document.querySelector(".search-bar").value);
+  },
 
+};
+
+document.querySelector("#search-button").addEventListener("click", function() {
+  weather.searchBar();
+})
+weather.fetchWeather("Tokyo");
 
